@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import HeroSection from "../components/heroSection";
 import CategoriesSection from "../components/categoriesSection";
 import Sidebar from "@/components/sidebar";
+import Feed from "@/components/feed";
 
 export default function Home() {
   // Array de dados dos memes para serem passados como props
@@ -176,6 +177,7 @@ export default function Home() {
         <div className={styles.contentArea}>
           <HeroSection memeOfTheDay={memeOfTheDay} />
           <CategoriesSection categories={categories} />
+          <Feed memes={memes} />
         </div>
         <Sidebar upcomingEvents={upcomingEvents} />
       </div>
