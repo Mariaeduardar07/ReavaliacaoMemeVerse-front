@@ -1,7 +1,8 @@
 import styles from "./page.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import HeroSection from "@/components/heroSection";
+import HeroSection from "../components/heroSection";
+import CategoriesSection from "../components/categoriesSection";
 
 export default function Home() {
   // Array de dados dos memes para serem passados como props
@@ -173,6 +174,7 @@ export default function Home() {
       <div className={styles.mainContent}>
         <div className={styles.contentArea}>
           <HeroSection memeOfTheDay={memeOfTheDay} />
+          <CategoriesSection categories={categories} />
         </div>
       </div>
       <Footer />
