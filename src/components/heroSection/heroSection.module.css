@@ -98,3 +98,22 @@
 .heroImage:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 1024px) { 
+ .heroSection {
+    flex-direction: column;
+  }
+
+  .heroImageContainer {
+    height: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .heroContent {
+    padding: 20px;
+  }
+
+  .heroTitle {
+    font-size: 24px;
+  }
+}

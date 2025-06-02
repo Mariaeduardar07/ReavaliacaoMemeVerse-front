@@ -29,3 +29,9 @@
   background-color: #4e5de4;
   border-radius: 10px;
 }
+
+@media (max-width: 768px){ 
+ .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+}

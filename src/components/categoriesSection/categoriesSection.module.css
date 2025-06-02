@@ -61,3 +61,9 @@
   font-size: 13px;
   color: #666;
 }
+
+@media (max-width: 480px) {
+  .categoriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

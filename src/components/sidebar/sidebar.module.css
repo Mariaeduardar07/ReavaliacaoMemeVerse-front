@@ -101,3 +101,9 @@
 .tagMedium {
   font-size: 14px;
 }
+
+@media (max-width: 1024px) {
+.sidebar {
+    width: 100%;
+  }
+}
