@@ -5,6 +5,7 @@ import HeroSection from "../components/heroSection";
 import CategoriesSection from "../components/categoriesSection";
 import Sidebar from "@/components/sidebar";
 import Feed from "@/components/feed";
+import FeaturedMemesSection from "@/components/featuredMemesSection";
 
 export default function Home() {
   // Array de dados dos memes para serem passados como props
@@ -178,6 +179,7 @@ export default function Home() {
           <HeroSection memeOfTheDay={memeOfTheDay} />
           <CategoriesSection categories={categories} />
           <Feed memes={memes} />
+          <FeaturedMemesSection memes={featuredMemes} />
         </div>
         <Sidebar upcomingEvents={upcomingEvents} />
       </div>
